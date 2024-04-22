@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        color: white;
+    }   
+    body{
+        background-color: rgb(52, 52, 65);
+    }
+    .Mainbox{
+        /* border: 1px solid red; */
+        margin: 100px auto;
+        width: 400px;
+        /* background-color: rgb(60, 60, 71); */
+        box-shadow: 50px 50px 50px rgba(20, 20, 20, 0.273),
+        -50px -50px 50px rgba(28, 27, 31, 0.273);;
+        border-radius:5px;
+        padding: 30px;
+        
+    }
+    h1{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 10px;
+     }
+     span{
+        color: red;
+     }
+     .box1{
+        width: 100%;
+        padding: 4px;
+     }
+     select{
+        width: 100%;
+        box-sizing:border-box;
+        padding: 7px;
+        color: black;
+        margin-top: 8px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        /* margin-left: 10px; */
+        font-size: 16px;
+        
+     }
+     input{
+        width: 100%;
+        box-sizing:border-box;
+        padding: 7px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        /* margin-left: 10px; */
+        font-size: 16px;
+        color: black;
+        border: none;
+     }
+     label i{
+       margin-left: 10px;
+       margin-right: 4px;
+     }
+     .login-box{
+        width: 100%;
+        background-color: rgb(81, 81, 118);
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+        /* margin-left: 15px; */
+        border-radius: 5px;
+        box-sizing:border-box;
+     }
+     .forgot-box{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        padding: 10px;
+     }
+     footer{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+     }
+</style>
+
+</head>
+<body>
+    <div class="Mainbox">
+        <div>
+            <h1>MERO <span>SHARE</span></h1>
+        </div>
+        <div class="box1">
+            <label for=""><i class="fa-solid fa-house-chimney"></i>Depository Participants</label>
+                <select name=" Select your DP" id="Select your DP">
+                    <option value=" Select your DP">Select your DP</option>
+                </select>
+        </div>
+        <div class="box1">
+            <label for=""> <i class="fa-regular fa-user"></i>Username</label>
+                <input type="text" id="Username">
+        </div>
+        <div class="box1">
+            <label for=""><i class="fa-solid fa-lock"></i>Password</label>
+                <input type="password" id="Password">
+        </div>
+            <div class="login-box">Login</div>
+        <div class="forgot-box">Forgot your password?</div>
+    </div>
+    <footer>
+        <p class="footer-box">@2024 CDS and Cleaning Limited. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
